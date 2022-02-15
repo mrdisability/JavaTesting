@@ -9,9 +9,12 @@ public class UserRepository {
     private Map<String, User> users = new HashMap<String, User>();
 
     public UserRepository() {
-        users.put("matt", new User("matt", "password"));
-        users.put("frank", new User("frank", "password"));
-        users.put("king", new User("king", "1234"));
+        //Regular
+        users.put("matt", User.createRegularUser("matt", "1234"));
+        users.put("frank", User.createRegularUser("frank", "1234"));
+
+        //Admin
+        users.put("admin", User.createAdminUser("admin", "1234"));
     }
 
     public User findByUsername(String username) {

@@ -2,6 +2,7 @@ package mockito.service;
 
 import mockito.data.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
@@ -20,6 +21,9 @@ class AuthenticationServiceTest {
         this.authenticationService = new AuthenticationService(this.userRepository);
     }
 
+    //similar to @Ignore in junit4
+    //To not run a test
+    @Disabled
     @Test
     public void testAuthenticate() {
         //arrange
