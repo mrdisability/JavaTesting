@@ -1,7 +1,12 @@
 package com.thesamoanppprogrammer.demos.junit;
 
 public class Calculator {
-    public static int add(int a, int b) {
+    //Not static
+    public int add(int a, int b) {
         return a + b;
     }
+
+//    public static int add(int a, int b) {
+//        return a + b;
+//    }
 }

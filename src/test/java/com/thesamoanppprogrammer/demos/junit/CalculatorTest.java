@@ -6,7 +6,9 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
+    Calculator calculator = new Calculator();
 
+    //When add function is not static
     @Test
     public void testAdd() {
         //arrange
@@ -14,12 +16,38 @@ public class CalculatorTest {
         int b = 20;
 
         //act
-        int result = Calculator.add(a, b);
+        int result = calculator.add(a, b);
 
         //assert
         assertEquals(30, result);
     }
+
+    @Test
+    public void testAddZeroToPositive() {
+        //arrange
+        int a = 10;
+        int b = 0;
+
+        //act
+        int result = calculator.add(a, b);
+
+        //assert
+        assertEquals(10, result);
+    }
 }
+
+//    @Test
+//    public void testAdd() {
+//        //arrange
+//        int a = 10;
+//        int b = 20;
+//
+//        //act
+//        int result = Calculator.add(a, b);
+//
+//        //assert
+//        assertEquals(30, result);
+//    }
 
     //Adding descriptions to assertions
 //    @Test

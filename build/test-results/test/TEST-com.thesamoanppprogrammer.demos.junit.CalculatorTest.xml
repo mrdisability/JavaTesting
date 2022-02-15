@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thesamoanppprogrammer.demos.junit.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-15T05:52:52" hostname="Loves-iMac.local" time="0.012">
-  <properties/>
-  <testcase name="testAdd()" classname="com.thesamoanppprogrammer.demos.junit.CalculatorTest" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
