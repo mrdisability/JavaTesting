@@ -3,6 +3,9 @@ package mockito.service;
 import mockito.User;
 import mockito.data.UserRepository;
 
+import java.util.Set;
+import java.util.stream.Collectors;
+
 public class AuthenticationService {
     private UserRepository userRepository;
 

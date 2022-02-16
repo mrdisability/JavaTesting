@@ -39,6 +39,10 @@ public class User {
         return live;
     }
 
+    public UserType getUserType() {
+        return userType;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

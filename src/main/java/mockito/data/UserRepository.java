@@ -3,6 +3,8 @@ package mockito.data;
 import mockito.User;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 public class UserRepository {
@@ -19,5 +21,9 @@ public class UserRepository {
 
     public User findByUsername(String username) {
         return users.get(username);
+    }
+
+    public List<User> findAll() {
+        return new LinkedList<>(users.values());
     }
 }
