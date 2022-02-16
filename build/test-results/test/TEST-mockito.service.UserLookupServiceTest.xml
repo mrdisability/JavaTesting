@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="mockito.service.UserLookupServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-16T00:48:39" hostname="Loves-iMac.local" time="0.418">
+<testsuite name="mockito.service.UserLookupServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-16T01:50:47" hostname="Loves-iMac.local" time="0.247">
   <properties/>
-  <testcase name="getAdminUsers()" classname="mockito.service.UserLookupServiceTest" time="0.403"/>
-  <testcase name="getRegularUsers()" classname="mockito.service.UserLookupServiceTest" time="0.015"/>
+  <testcase name="getRegularUsers_hamcrest()" classname="mockito.service.UserLookupServiceTest" time="0.247"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
